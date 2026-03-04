@@ -6,7 +6,6 @@ use soroban_sdk::{
 use soroban_token_sdk::metadata::TokenMetadata;
 use soroban_token_sdk::TokenUtils;
 
-// ── Константы TTL ──
 
 const INSTANCE_BUMP: u32 = 7 * 17280;
 const INSTANCE_THRESHOLD: u32 = 6 * 17280;
@@ -103,7 +102,6 @@ fn bump(e: &Env) {
     e.storage().instance().extend_ttl(INSTANCE_THRESHOLD, INSTANCE_BUMP);
 }
 
-// ── Контракт ──
 
 #[contract]
 pub struct NabokaContract;
