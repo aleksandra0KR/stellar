@@ -31,7 +31,7 @@ stellar keys generate --global naboka --network testnet --fund
 stellar keys address naboka
 ```
 
-![alt text](http://url/to/1.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/1.png?raw=true?raw=true)
 
 
 ---
@@ -404,7 +404,7 @@ let t = create_token(&e, &admin);
 cargo test
 ```
 
-![alt text](http://url/to/2.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/2.png?raw=true)
 ---
 
 ## Сборка
@@ -413,7 +413,7 @@ cargo test
 stellar contract build
 ```
 
-![alt text](http://url/to/3.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/3.png?raw=true)
 
 
 ## Шаг 11. Развёртывание в тестовой сети
@@ -431,11 +431,11 @@ stellar contract deploy \
 --symbol "NT"
 ```
 
-![alt text](http://url/to/4.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/4.png?raw=true)
 
 Сохраняем contract id
 
-![alt text](http://url/to/5.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/5.png?raw=true)
 ---
 
 ## Эмиссия
@@ -460,21 +460,21 @@ stellar contract invoke \
 balance \
 --id "$(stellar keys address naboka)"
 ```
-![alt text](http://url/to/6.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/6.png?raw=true)
 
 ## Перевод 
 
 Перевели на свой счет
 
-![alt text](http://url/to/7.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/7.png?raw=true)
 
 
 Баланс у нас 500 у набоки на 500 меньше
 
-![alt text](http://url/to/8.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/8.png?raw=true)
 
 ---
 
 ## C одного аккаунта одногруппника  на другой аккаунт одногрупника
 
-![alt text](http://url/to/9.png)
+![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/9.png?raw=true)
