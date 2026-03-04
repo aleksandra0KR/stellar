@@ -478,3 +478,7 @@ balance \
 ## C одного аккаунта одногруппника  на другой аккаунт одногрупника
 
 ![alt text](https://github.com/aleksandra0KR/stellar/blob/main/img/9.png?raw=true)
+
+
+
+# https://stellar.expert/explorer/testnet/contract/CD7TWFKVWR4ATBJXJH3ONE6XG2X76DAVYPH55K7HUC3MTZGFR6XDBX7R
